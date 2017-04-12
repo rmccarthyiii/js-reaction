@@ -1,0 +1,49 @@
+			body {
+			
+				font-family: sans-serif;
+			
+			}
+		
+		
+			#shape {
+			
+				width: 200px;
+				height: 200px;
+				display: none;
+				position: relative;
+
+			}
+		
+			.top {
+				
+				background-color: #ccc;
+				padding: 5px;
+				margin: 0;
+				padding-top: 0;
+				padding-bottom: 5px;
+				
+			}
+		
+		
+			.container {
+				
+				float: center;
+				background-color: #eee;
+				padding: 5px;
+				padding-top: 5px;
+				
+			}
+		
+		
+			.bold {
+				
+				font-weight: bold;
+			
+			}
+			
+			.ital {
+				
+				
+				font-size: 12px;
+				
+			}
