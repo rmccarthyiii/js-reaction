@@ -5,8 +5,6 @@
 			var bestTime = document.getElementById("bestTime");
 		
 		
-		
-		
 		// takes 0-9, A-F and chooses randomly six to create a hexidecimal code for every shape
 		var start = new Date().getTime();
 		
@@ -74,8 +72,6 @@
 		
 		
 		
-		
-		
 			appearAfterDelay();
 			
 			document.getElementById("shape").onclick = function () {
@@ -108,9 +104,3 @@
 					
 					
 		}
-			
-		
-		
-		
-		
-		
