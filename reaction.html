@@ -1,45 +1,33 @@
+<!DOCTYPE html>
 <html>
-
 	<head>
-	
-	
 		<meta charset="utf-8">
-		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+			<title>Reaction Test</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
-		<title>Reaction Timer</title>
-		
-		<link rel="stylesheet" type="text/css" href="style.css">
-		
-		
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
-	
-	<body>
+<body>
 
+	<div class="top" align="center">
 	
-		<div class="top" align="center">
-		
-			<h1>Reaction Test</h1>
-		
-			<p><span style="color: blue"><b>Instructions: </b></span>Click on the shapes as quickly as you can.</p>
-		
-		</div>
+		<h1>Reaction Test</h1>
+		<p><span style="color: blue"><b>Instructions: </b></span>Click on the shapes as quickly as you can.</p>
 	
-		<div class="container" align="left">
-	
-			<p class="bold">Current Time: <span id="timeTaken"></span></p>
+	</div>
+
+	<div class="container" align="left">
+	  <p class="bold">Current Time: <span id="timeTaken"></span></p>
 		<hr>
-			<p class="ital">Fastest Time: <span id = "bestTime"></span> </p>
-        <hr>
-			<p class="ital">Average Time: <span id = "averageTime"></span></p>
-
-		</div>
+	  <p class="ital">Fastest Time: <span id = "bestTime"></span> </p>
+		<hr>
+	  <p class="ital">Average Time: <span id = "averageTime"></span></p>
+	</div>
+	
+	<div id="shape"></div>
+	<script type="text/javascript" src="js/script.js"></script>
 		
-		<div id="shape"></div>
-		
-		<script type="text/javascript" src="script.js"></script>
-		
-		
-    </body>
+ </body>
 
 </html>
