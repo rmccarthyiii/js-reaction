@@ -27,11 +27,11 @@
 		
 			function makeShapeAppear() {
 			
-				var top = Math.random() * 400;
+				var top = Math.random() * 200;
 				
-				var left = Math.random() * 400;
+				var left = Math.random() * 200;
 				
-				var width = (Math.random() * 200) + 100;
+				var width = (Math.random() * 100) + 50;
 				
 				if (Math.random() > 0.5) {
 				
